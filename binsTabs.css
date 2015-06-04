@@ -1,0 +1,332 @@
+#header-img-home { width:85%; margin: 2% 5% 0% 10%; height:auto;
+}
+body  {  width:100%; margin: 0% 0% 2% 0%; max-width: 850px; min-width: 700px;  font-family: "verdana";}
+
+.etabs { margin: 0; padding: 0; 
+}
+
+.tab { width: 15.5%; display: inline-block; zoom:1; *display:inline; background-image: url("binsTabs.png"); border: solid 1px #999; border-bottom: none; -moz-border-radius: 4px 4px 0 0; -webkit-border-radius: 4px 4px 0 0; }
+
+.tab a { font-size: 1rem; color: #000; line-height: 2em; display: block; font-weight: 600; padding: 0; outline: none; text-decoration: none; text-align: center;}
+
+.tabPublications { width: 15.5%; display: inline-block; zoom:1; *display:inline; background-image: url("binsTabs.png"); border: solid 1px #999; border-bottom: none; -moz-border-radius: 4px 4px 0 0; -webkit-border-radius: 4px 4px 0 0; }
+
+.tabPublications a { font-size: .95rem; color: #000; line-height: 2em; display: block; font-weight: 600; padding: 0; outline: none; text-decoration: none; text-align: center;}
+
+.tab a:hover { text-decoration: underline; }
+
+.tab.active {  background: #7a0019; padding-top: 6px; position: relative; top: 1px; border-color: #666; }
+
+.tab a.active { font-weight: bold; }
+
+.tab-container  { width:83%; margin: 2% 10% 0% 10%; height:auto;  height: auto; background: #fff; border: solid #666 1px; padding: 10px 10px 10px 10px; -moz-border-radius: 0 4px 4px 4px; -webkit-border-radius: 0 4px 0px 4px; }
+
+.panel-container  { background: #fff; border: solid #666 1px; border: 5%; padding: 0 10px 10px 10px; -moz-border-radius: 0 4px 4px 4px; -webkit-border-radius: 0 4px 4px 4px; }
+
+#contentContainerHome  { margin: 0% 0% 0 0%; background: #7a0019; width:100%; height: 70%; color:#ffcc33;-moz-border-radius: 0 4px 4px 4px; -webkit-border-radius: 0 4px 0px 4px;}
+
+#contentContainer  { margin: 0% 0% 0 0%; background: #7a0019; width:100%; height: 70%; color:#ffcc33;-moz-border-radius: 0 4px 4px 4px; -webkit-border-radius: 0 4px 0px 4px;}
+
+#contentContainerCurrent  { 
+    margin: 0% 0% 0% 0%; padding: 5% 0% 5% 0%; background: #7a0019; width:100%; height: 70%; color:#ffcc33;-moz-border-radius: 0 4px 4px 4px; -webkit-border-radius: 0 4px 0px 4px;}
+
+#contentContainerPast { 
+    margin: 0% 0% 0% 0%; padding: 5% 0% 5% 0%; background: #7a0019; width:100%; height: 70%; color:#ffcc33;-moz-border-radius: 0 4px 4px 4px; -webkit-border-radius: 0 4px 0px 4px; min-height: 250px;}
+
+#contentContainerHome h2  { font-family: "verdana"; margin: 0% 2% 0% 2%; padding: 2% 2% 2% 0%; color:#ffcc33;}
+
+
+#home-img {
+    width: 55%;
+    height: auto;
+    margin: 4% 5% 3% 4%;
+    padding: 2% 2% 2% 2%;
+    float:left;
+    box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+}
+
+#home-img-2 {
+    width: 80%;
+    height: auto;
+    margin: 2% 8% 3% 8%;
+    padding: 2% 2% 2% 2%;
+    float:left;
+    box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+}
+
+.headline {  
+    width: 90%;
+    height: auto;
+    padding: 2% 2% 3% 0%;
+    margin: 0% 5% 0% 5%;
+    font-family: "verdana";
+    /*border-top-style: solid;
+    border-top-color: #ffcc33;*/
+    border-bottom-style: solid;
+    border-bottom-color: #ffcc33;
+}
+
+.headline h2{  
+    text-align: center;
+}
+
+.aboveFold {  
+    width: 90%;
+    height: auto;
+    padding: 2% 2% 3% 0%;
+    margin: 2% 5% 0% 5%;
+    font-family: "verdana";
+    /*border-top-style: solid;
+    border-top-color: #ffcc33;*/
+    border-bottom-style: solid;
+    border-bottom-color: #ffcc33;
+}
+
+.belowFold {  
+    width: 90%;
+    height: auto;
+    padding: 2% 2% 2% 0%;
+    margin: 2% 5% 0% 5%;
+    font-family: "verdana";
+    border-bottom-style: solid;
+    border-bottom-color: #ffcc33;
+}
+
+.belowFold2 {  
+    width: 90%;
+    height: auto;
+    padding: 2% 2% 0% 0%;
+    margin: 2% 5% 0% 5%;
+    font-family: "verdana";
+    /*border-bottom-style: solid;
+    border-bottom-color: #ffcc33;*/
+}
+
+#note-home-top {
+    padding: 2% 2% 2% 2%;
+    margin: 1% 2% 0% 2%;
+    font-family: "verdana";
+    min-height: 250px;
+}
+
+#note-home {
+    padding: 2% 2% 2% 2%;
+    margin: 0% 2% 4% 2%;
+    font-family: "verdana";
+    /*min-height: 250px;*/
+}
+
+#note-home-2 {
+    padding: 2% 0% 2% 2%;
+    margin: 0% 2% 4% 7%;
+    font-family: "verdana";
+    /*min-height: 250px;*/
+}
+
+
+#subtext-note-home {
+    padding: 5% 2% 2% 2%;
+    margin: 2% 5% 2% 5%;
+    font-family: "verdana";
+    font-size: .75rem;
+    color: beige;
+    min-height: 250px;
+    text-align: center;
+}
+
+.belowFold2 {
+    /*line-height: 2em;*/
+    margin: 0% 0 2% 0;
+    min-height: 250px;
+}
+
+.belowFold2 li {
+    /*line-height: 2em;*/
+    margin: 0% 0 2% 7%;
+    padding:2%;
+}
+
+.belowFold2 li a {
+    color: beige;
+}
+
+.note-home  {
+    padding: 2% 2% 2% 2%;
+    margin: 0% 10% 0% 5%;
+    font-family: "verdana";
+}
+
+
+<!--
+#note-homeUl {
+    padding: 2% 2% 2% 2%;
+    margin: 2% 5% 0% 5%;
+    font-family: "verdana";
+    border-bottom-style: solid;
+    border-bottom-color: #ffcc33;
+}-->
+
+
+/*Bottom Link Styles*/
+.pagesTitle {text-align: center; color: #ffcc33;
+}
+
+#current { margin: 0% 0 0 0%; background: purple; width:100%; height: 6%; }
+
+#current h3 { margin: 0 0 0 7%; color: pink;  font-family: "verdana"; }
+
+#current a { text-decoration: none;}
+
+#former { margin: 0 0 0 0%; background: pink; width:100%; height: 6%;
+}
+
+#former a { text-decoration: none;}
+
+#former h3 { margin: 0 0 0 7%; color: #000;  font-family: "verdana";}
+
+#projects { margin: 0 0 0 0%; background:#7a0019; width:100%; height: 6%; 
+}
+
+#projects a { text-decoration: none;}
+
+#projects h3 { margin: 0 0 0 7%; color: #ffcc33;  font-family: "verdana";}
+
+#contact { margin: 0 0 0 0%; background: beige; width:100%; height: 6%; }
+
+#contact h3 { margin: 0 0 0 7%; color:purple;  font-family: "verdana"; }
+
+#contact a { text-decoration: none;}
+
+
+
+h3  {  margin: 0; padding: 0; line-height: 3em; }
+
+#currentCurrent { background: purple; width:80%; height: 55%; }
+
+#formerCurrent { background: pink; width:80%; height: 9%; }
+
+#projectsCurrent { background: #ffcc33; width:80%; height: 9%; 
+}
+
+
+
+.accordian {
+	width:93%; height:auto; margin: 2% 5% 2% 2%; padding: 5% 0 5% 0;
+	overflow: hidden;
+	/*margin: 40px 80px 10px 80px;*/
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+	-webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+}
+
+/*BEGIN ACCORDIAN STYLES*/
+/*Prevent flickering on some browsers*/
+.accordian ul {
+	width: 2000px;
+/*This will give ample space to the last item to move
+instead of falling down/flickering during hovers.*/
+}
+
+.accordian li {
+	position: relative;
+	display: block;
+	width: 100px;
+	float: left;
+	border-left: 1px solid #888;
+	box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+	/*Transitions to give animation effect*/
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	/*If you hover on the images now you should be able to 
+	see the basic accordian*/
+}
+
+/*Reduce with of un-hovered elements*/
+.accordian ul:hover li {width: 40px;}
+/*Lets apply hover effects now*/
+/*The LI hover style should override the UL hover style*/
+.accordian ul li:hover {width: 188px;}
+
+
+.accordian li img {
+	display: block;
+    max-height: 222px;
+    width:auto;
+}
+
+/*Image title styles*/
+.image_title {
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	left: 0; bottom: 0;	
+    width: 188px;	
+
+}
+.image_title a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+	font-size: 16px;
+}
+
+/*END ACCORDIAN STYLES*/
+
+/*BEGIN CONTENT STYLES*/
+
+#mainblogbox {
+    width: 24%;
+    height:100%;
+    background-color: #ffcc33;
+    margin: 2% 5% 2% 5%;
+    float:left;
+}
+
+#side-image-retainer {
+    color: #d2d2d2;
+    background: #7a0019;
+    width:30%;
+    padding-top: 1%;
+    height:auto;
+    max-height: 98%;
+    margin: 2% 2% 2% 2% ;
+   
+    /*border-top-color: #7a0019;
+    border-style: solid;*/
+    float:left;
+}
+
+#side-image {width: 83%;
+    height:auto;
+    margin: 0% 2% 0% 15%;
+    padding: 0;
+    box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+}
+
+#currentBio {
+    margin: 0;
+    padding: 0;
+}
+
+#map-canvas { height: 100%; margin: 0; padding: 0;}
+
+
+footer {
+    margin: 3% 2% 0% 2%;
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+    font-size: .5rem;
+    text-decoration: none;
+}
+
+/*END CONTENT STYLES*/
