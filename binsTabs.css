@@ -111,6 +111,7 @@ body  {  width:100%; margin: 0% 0% 2% 0%; max-width: 850px; min-width: 700px;  f
     margin: 1% 2% 0% 2%;
     font-family: "verdana";
     min-height: 250px;
+    color: beige;
 }
 
 #note-home {
@@ -118,6 +119,7 @@ body  {  width:100%; margin: 0% 0% 2% 0%; max-width: 850px; min-width: 700px;  f
     margin: 0% 2% 4% 2%;
     font-family: "verdana";
     /*min-height: 250px;*/
+    color: beige;
 }
 
 #note-home-2 {
@@ -125,6 +127,7 @@ body  {  width:100%; margin: 0% 0% 2% 0%; max-width: 850px; min-width: 700px;  f
     margin: 0% 2% 4% 7%;
     font-family: "verdana";
     /*min-height: 250px;*/
+    color: beige;
 }
 
 
@@ -133,7 +136,7 @@ body  {  width:100%; margin: 0% 0% 2% 0%; max-width: 850px; min-width: 700px;  f
     margin: 2% 5% 2% 5%;
     font-family: "verdana";
     font-size: .75rem;
-    color: beige;
+    color: #ffcc33;
     min-height: 250px;
     text-align: center;
 }
@@ -152,13 +155,46 @@ body  {  width:100%; margin: 0% 0% 2% 0%; max-width: 850px; min-width: 700px;  f
 
 .belowFold2 li a {
     color: beige;
+    text-decoration: none;
 }
 
 .note-home  {
     padding: 2% 2% 2% 2%;
     margin: 0% 10% 0% 5%;
     font-family: "verdana";
+    min-height: 250px;
+    color:beige;
+    
 }
+
+.note-home a {
+    text-decoration: none;
+    color: #ffcc33;
+    
+}
+
+#upperRightLink {
+    margin: 0 2% 0% 75%;
+}
+
+#upperRightLink a {
+    padding: 2%;
+    color: #ffcc33;
+    text-decoration: none;
+}
+
+#past li{
+    margin: 0% 0 2% 7%;
+    padding:2%;
+}
+
+#past li a { 
+    padding: 2%;
+    color: beige;
+    text-decoration: none;
+}
+
+
 
 
 <!--
@@ -215,7 +251,7 @@ h3  {  margin: 0; padding: 0; line-height: 3em; }
 
 
 .accordian {
-	width:93%; height:auto; margin: 2% 5% 2% 2%; padding: 5% 0 5% 0;
+	width:80%; height:auto; margin: 2% 11% 2% 9%; padding: 5% 0 5% 0;
 	overflow: hidden;
 	/*margin: 40px 80px 10px 80px;*/
 	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
@@ -252,7 +288,7 @@ instead of falling down/flickering during hovers.*/
 .accordian ul:hover li {width: 40px;}
 /*Lets apply hover effects now*/
 /*The LI hover style should override the UL hover style*/
-.accordian ul li:hover {width: 188px;}
+.accordian ul li:hover {width: 200px;}
 
 
 .accordian li img {
@@ -266,7 +302,7 @@ instead of falling down/flickering during hovers.*/
 	background: rgba(0, 0, 0, 0.5);
 	position: absolute;
 	left: 0; bottom: 0;	
-    width: 188px;	
+    width: 200px;	
 
 }
 .image_title a {
